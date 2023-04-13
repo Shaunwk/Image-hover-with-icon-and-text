@@ -41,7 +41,7 @@ body {
 .image-1 {
   width: 100%;
   border-radius: 5rem 2rem 5rem 2rem;
-  
+  display: block; /* this prevents the overlay from hanging over on the bottom*/
 }
 
 
