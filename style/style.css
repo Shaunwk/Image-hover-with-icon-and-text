@@ -1,0 +1,74 @@
+:root {
+  --ff-primary: "Outfit", sans-serif;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  line-height: 1;
+}
+
+
+.container {
+  background-color: #2c3439;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 400px;
+  margin: 2rem;
+  padding: 1rem;
+  background-color:#dbd6cb;
+  border-radius: 5rem 2rem 5rem 2rem; 
+}
+
+.image-box {
+  position: relative;
+}
+
+.image-1 {
+  width: 100%;
+  border-radius: 5rem 2rem 5rem 2rem;
+  
+}
+
+
+.overlay {
+  color: rgb(0, 0, 0);
+  background: hsla(63, 100%, 49%, 0.611);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5rem 2rem 5rem 2rem;
+}
+
+.overlay p {
+  width: 70%;
+}
+
+.image-box:hover .overlay {
+  opacity: 1;
+}
+
