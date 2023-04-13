@@ -17,6 +17,7 @@ body {
   line-height: 1;
 }
 
+/*container*/
 
 .container {
   background-color: #2c3439;
@@ -44,6 +45,7 @@ body {
   display: block; /* this prevents the overlay from hanging over on the bottom*/
 }
 
+/*overlay*/
 
 .overlay {
   color: rgb(0, 0, 0);
